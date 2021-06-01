@@ -54,3 +54,14 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "omniauth-twitter", "~> 1.4"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "twitter", "~> 7.0"
+
+gem "sidekiq", "~> 6.2"
+
+gem "redis", "~> 4.2"
+
+gem "racc", "~> 1.5"
